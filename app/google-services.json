@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1030401052449",
+    "firebase_url": "https://notionic-9fec2.firebaseio.com",
+    "project_id": "notionic-9fec2",
+    "storage_bucket": "notionic-9fec2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1030401052449:android:ff55e57e8773401f",
+        "android_client_info": {
+          "package_name": "portugles.com.innova.innova"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1030401052449-etaad1lcb56s8fqjlnr9462ng4oelis3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOfgZxNBJYyONMqNgRJeDg8uDR9dPD_Yw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1030401052449-etaad1lcb56s8fqjlnr9462ng4oelis3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

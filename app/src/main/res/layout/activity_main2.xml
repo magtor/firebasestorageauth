@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:id="@+id/textViewEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Email:"
+        android:textSize="42sp"
+        android:textColor="#ffffff"/>
+
+    <EditText
+        android:id="@+id/editTextEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="90dp"
+        android:textSize="32sp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Email:"
+        android:textColorHint="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/textViewPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="42sp"
+        android:fontFamily="sans-serif"
+        android:text="Password:"
+        android:paddingBottom="15dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp"
+        android:textColor="#ffffff"/>
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="170dp"
+        android:textSize="32sp"
+        android:paddingBottom="15dp"
+        android:fontFamily="sans-serif"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="Password:"
+        android:textColorHint="@color/colorAccent"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:text="Login"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="270dp"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent"
+        android:background="@drawable/rounded_button_transparent"/>
+</RelativeLayout>

@@ -1,0 +1,32 @@
+#
+# generated on 2019/06/06 04:31:48
+#
+# --table-start--
+dataClass=portugles.com.innova.innova.usermodel
+tableName=usuario
+# --table-fields-start--
+# --field-start--
+fieldName=id
+generatedId=true
+# --field-end--
+# --field-start--
+fieldName=nombreusuario
+# --field-end--
+# --field-start--
+fieldName=numerotelefono
+# --field-end--
+# --field-start--
+fieldName=nickuser
+# --field-end--
+# --field-start--
+fieldName=password
+# --field-end--
+# --field-start--
+fieldName=fechanacimiento
+# --field-end--
+# --field-start--
+fieldName=email
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
